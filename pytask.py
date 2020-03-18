@@ -5,8 +5,8 @@ class Participant:
 		self.name=name
 		self.time_from=None
 		self.time_to=None
-	def addStacks(self,stack):
-		self.stack=stack
+	def addStacks(self,s):
+		self.stack=s
 	def setMentorOrLearner(self,t):
 		if self.t=='L':
 			self.type_lm="Learner"
